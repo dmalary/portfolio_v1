@@ -10,7 +10,7 @@ const ProjectTile = ({img, copy, link, size}) => {
             <img src={img} alt="" />
         }
         {
-          (copy) && <p>{copy}</p>
+          (copy) && <p className="text-left">{copy}</p>
         }
       </div>
     </>
