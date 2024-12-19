@@ -45,8 +45,11 @@ function App() {
         <div className='portfolio-col col-span-1 md:col-span-2 px-1 py-4'>
           <div className='section-card section-dev py-4'>
             <div className='section-titles text-left py-2'><h2>Development</h2></div>
-            <ProjectTile img={'../imgs/dev/thesis.png'} copy={"(2020) Thesis, MS in Data Visualization. Parson's School of Design, The New School"} link={'https://parsons.nyc/thesis-2021/'} size={'w-full md:w-full'}/>
-            <ProjectTile img={'../imgs/dev/nfl_draft-project1.png'} copy={"An analysis of NFL draft positional history. Data gathered with custom built JS web scraper. Chart built with D3, layout in React."} link={'https://dmalary.github.io/nfl_draft-dashboard/'} size={'w-full md:w-full'}/>
+            <ProjectTile img={'../imgs/dev/thesis.png'} copy={"(2020) Thesis, MS in Data Visualization. Parson's School of Design, The New School"} link={'https://parsons.nyc/thesis-2021/'} size={'w-full py-3 md:w-5/6'}/>
+            <ProjectTile img={'../imgs/dev/nfl_draft-project1.png'} copy={"An analysis of NFL draft positional history. Data gathered with custom built JS web scraper. Chart built with D3, layout in React."} link={'https://dmalary.github.io/nfl_draft-dashboard/'} size={'w-full py-3 md:w-5/6'}/>
+            <ProjectTile img={'../imgs/dev/city_champions.png'} copy={"Small multiples donut chart, to evaluate what North American City has won the most champpionships, within the four major sports (baseball, football, basketball, hockey)."} link={'https://github.com/dmalary/react_d3-map_challenge_4'} size={'w-full py-3 md:w-5/6'}/>
+            <ProjectTile img={'../imgs/dev/dm_visual_cv.png'} copy={"An upgraded version of my resume, based on a picture is worth a thousand words."} link={'https://github.com/dmalary/dm_cv-react-d3'} size={'w-full py-3 md:w-5/6'}/>
+            <ProjectTile img={'../imgs/dev/state_teams.png'} copy={"Hexagon US map, showing the number of major 4 sports league teams by State. The major 4 are NFL, NHL, MLB, NBA."} link={'https://github.com/dmalary/react_d3-map_challenge_4?'} size={'w-full py-3 md:w-5/6'}/>
           </div>
           <hr />
           <div className='section-card section-des py-4'>
@@ -61,6 +64,7 @@ function App() {
             <ProjectTile img={'../imgs/des/blue-0001.png'} size={'w-full md:w-3/5'}/>
             <ProjectTile img={'../imgs/des/kore_0001.png'} size={'w-full md:w-2/5'}/>
             <ProjectTile img={'../imgs/des/studio_project-brochure.png'} size={'w-full md:w-full'}/>
+            {/* add donuts video, add pen commercial vid */}
           </div>
           <hr />
           <div className="section-card section-wr py-4">
