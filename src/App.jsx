@@ -43,10 +43,12 @@ function App() {
         </div>
         <div className='portfolio-col col-span-1 md:col-span-2 px-1 py-4'>
           <div className='section-card section-dev py-4'>
+            <div className='section-titles text-left py-2'><h2>Development</h2></div>
             <ProjectTile img={'../imgs/puzzle.png'} link={'https://github.com/dmalary'} size={'w-10'}/>
           </div>
           <hr />
           <div className='section-card section-des py-4'>
+            <div className='section-titles text-left py-2'><h2>Design</h2></div>
             <ProjectTile img={'../imgs/des/focus_bottleneck.png'} size={'w-full md:w-full'}/>
             <ProjectTile img={'../imgs/des/bottle_and_glass-005.png'} size={'w-full md:w-2/3'}/>
             <ProjectTile img={'../imgs/des/two_bottles-005.png'} size={'w-full md:w-1/3'}/>
@@ -59,7 +61,8 @@ function App() {
           </div>
           <hr />
           <div className="section-card section-wr py-4">
-            <ul className="stacked-links">
+            <div className='section-titles text-left py-2'><h2>Writing</h2></div>
+            <ul className="stacked-links text-left">
               <li>
                 <a
                   href="https://medium.com/@davidmalary/how-to-build-a-simple-web-scraper-in-javascript-f57dd3e3abb1"
