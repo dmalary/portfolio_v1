@@ -41,15 +41,12 @@ function App() {
             {/* <hr /> */}
           </div>
         </div>
-        <div className='portfolio-col col-span-1 md:col-span-2 p-4'>
-          {/* right: tiles of portfolio */}
-          <div className='section-card section-dev px-2 py-4'>
-            {/* dev */}
+        <div className='portfolio-col col-span-1 md:col-span-2 px-1 py-4'>
+          <div className='section-card section-dev py-4'>
             <ProjectTile img={'../imgs/puzzle.png'} link={'https://github.com/dmalary'} size={'w-10'}/>
           </div>
           <hr />
-          <div className='section-card section-des px-2 py-4'>
-            {/* 3d design */}
+          <div className='section-card section-des py-4'>
             <ProjectTile img={'../imgs/des/focus_bottleneck.png'} size={'w-full md:w-full'}/>
             <ProjectTile img={'../imgs/des/bottle_and_glass-005.png'} size={'w-full md:w-2/3'}/>
             <ProjectTile img={'../imgs/des/two_bottles-005.png'} size={'w-full md:w-1/3'}/>
@@ -61,8 +58,36 @@ function App() {
             <ProjectTile img={'../imgs/des/kore_0001.png'} size={'w-full md:w-2/5'}/>
           </div>
           <hr />
-          <div className='section-card section-wr px-2 py-4'>
-            {/* writing */}
+          <div className="section-card section-wr py-4">
+            <ul className="stacked-links">
+              <li>
+                <a
+                  href="https://medium.com/@davidmalary/how-to-build-a-simple-web-scraper-in-javascript-f57dd3e3abb1"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  How to build a simple web scraper in Javascript
+                </a>
+              </li>
+              <li>
+                <a
+                  href="https://medium.com/@davidmalary/building-a-simple-mapbox-d3-visualization-cb23968078fe"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  Building a simple Mapbox & D3 visualization
+                </a>
+              </li>
+              <li>
+                <a
+                  href="https://medium.com/@davidmalary/nfl-draft-history-using-react-d3-db6b6b3a0388"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  NFL Draft History, using React + D3
+                </a>
+              </li>
+            </ul>
           </div>
         </div>
       </div>
