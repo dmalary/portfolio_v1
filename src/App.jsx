@@ -39,12 +39,14 @@ function App() {
             {/* <div className='w-10 h-10 px-1 inline-block'><a href="https://www.instagram.com/from_studio_jane/" target="_blank" rel="noopener noreferrer"><img src="/imgs/sm-icons-instagram-glyph-logo.webp" alt="Instagram" /></a></div> */}
             {/* <div className='w-10 h-10 px-1 inline-block'><a href="https://dribbble.com/thedavmal" target="_blank" rel="noopener noreferrer"><img src="/imgs/puzzle.png" alt="Dribble" /></a></div> */}
             {/* <hr /> */}
+            {/* {add email/cv  icons} */}
           </div>
         </div>
         <div className='portfolio-col col-span-1 md:col-span-2 px-1 py-4'>
           <div className='section-card section-dev py-4'>
             <div className='section-titles text-left py-2'><h2>Development</h2></div>
-            <ProjectTile img={'../imgs/puzzle.png'} link={'https://github.com/dmalary'} size={'w-10'}/>
+            <ProjectTile img={'../imgs/dev/thesis.png'} copy={"(2020) Thesis, MS in Data Visualization. Parson's School of Design, The New School"} link={'https://parsons.nyc/thesis-2021/'} size={'w-full md:w-full'}/>
+            <ProjectTile img={'../imgs/dev/nfl_draft-project1.png'} copy={"An analysis of NFL draft positional history. Data gathered with custom built JS web scraper. Chart built with D3, layout in React."} link={'https://dmalary.github.io/nfl_draft-dashboard/'} size={'w-full md:w-full'}/>
           </div>
           <hr />
           <div className='section-card section-des py-4'>
@@ -58,6 +60,7 @@ function App() {
             <ProjectTile img={'../imgs/des/all_caps0001.png'} size={'w-full md:w-full'}/>
             <ProjectTile img={'../imgs/des/blue-0001.png'} size={'w-full md:w-3/5'}/>
             <ProjectTile img={'../imgs/des/kore_0001.png'} size={'w-full md:w-2/5'}/>
+            <ProjectTile img={'../imgs/des/studio_project-brochure.png'} size={'w-full md:w-full'}/>
           </div>
           <hr />
           <div className="section-card section-wr py-4">
@@ -92,6 +95,10 @@ function App() {
               </li>
             </ul>
           </div>
+          {/* <hr />
+          <div className="section-card section-companies py-4">
+            add company logos worked with
+          </div> */}
         </div>
       </div>
     </>
