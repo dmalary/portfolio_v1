@@ -2,10 +2,10 @@ const ProjectTile = ({img, copy, link, size}) => {
 
   return (
     <>
-      <div className={`${size} inline-block`}>
+      <div className={`inline-block p-1 ${size}`}>
         {
           link ? 
-            <a href={link}><img src={img} alt={copy || ""} /></a>
+            <a href={link} target="_blank" rel="noopener noreferrer"><img src={img} alt={copy || ""} /></a>
           : 
             <img src={img} alt="" />
         }
