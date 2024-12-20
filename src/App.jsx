@@ -95,7 +95,7 @@ function App() {
             <ProjectTile img={'/imgs/des/shampoo_light.jpg'} size={'w-full md:w-1/3'}/>
             <ProjectTile img={'/imgs/des/shampoo_dark.jpg'} size={'w-full md:w-2/3'}/>
             <ProjectTile img={'/imgs/des/kore_0001.png'} size={'w-full md:w-full'}/>
-            <ProjectTile img={'/imgs/des/studio_project-brochure.png'} size={'w-full md:w-full'}/>
+            {/* <ProjectTile img={'/imgs/des/studio_project-brochure.png'} size={'w-full md:w-full'}/> */}
             {/* add donuts video, add pen commercial vid */}
           </div>
           <hr />
