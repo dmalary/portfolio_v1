@@ -4,7 +4,7 @@ const ProjectTile = ({img, copy, link, size}) => {
 
   return (
     <>
-      <div className={`inline-block px-1 py-1 ${size}`}>
+      <div className={`inline-block px-1 py-1 ${size} font-montserrat`}>
         {
           link ? 
             <a href={link} target="_blank" rel="noopener noreferrer">

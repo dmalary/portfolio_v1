@@ -26,12 +26,12 @@ function App() {
     <>
       <div className='grid grid-cols-1 md:grid-cols-3 gap-4'>
         <div className='info-col col-span-1 pt-3 pr-4 pb-2 pl-1 text-left md:align-bottom'>
-          <h1>David Malary</h1> 
+          <h1 className='font-garamond'>David <br/> Malary</h1> 
           <div style={{margin: ".5rem 0"}}>
             <div className='lang-eng inline-block align-middle cursor-pointer' data-lang="eng" onClick={handleLanguage}>&#x1F1FA;&#x1F1F8;</div> || 
             <div className='lang-fre inline-block align-middle cursor-pointer' data-lang="fre" onClick={handleLanguage}>&#x1F1EB;&#x1F1F7;</div>
           </div>
-          <div className='pt-2 pb-3 px-0'>{copyLang}</div>
+          <div className='pt-2 pb-3 px-0 font-montserrat'>{copyLang}</div>
           <hr />
           <div className='pt-5 pb-3 px-0'>
             <div className='w-10 h-10 px-1 inline-block'><a href="https://github.com/dmalary" target="_blank" rel="noopener noreferrer">
@@ -56,7 +56,7 @@ function App() {
             {/* {add email/cv  icons} */}
           </div>
           <hr />
-          <div className='pt-5 pb-3 px-0'>
+          <div className='pt-5 pb-3 px-0 font-montserrat'>
             <div className='anchors block py-1'><a href="#section-dev">Development</a></div>
             <div className='anchors block py-1'><a href="#section-des">Design & 3D</a></div>
             <div className='anchors block py-1'><a href="#section-wr">Writing</a></div>
@@ -64,7 +64,7 @@ function App() {
         </div>
         <div className='portfolio-col col-span-1 md:col-span-2 px-1 py-4'>
           <div className='section-card section-dev py-4'>
-            <div id="section-dev" className='section-titles text-left py-2'><h2>Development</h2></div>
+            <div id="section-dev" className='section-titles text-left py-2 font-garamond'><h2>Development</h2></div>
             <ProjectTile img={'/imgs/dev/thesis.png'} copy={"(2020) Thesis, MS in Data Visualization. Parson's School of Design, The New School"} link={'https://parsons.nyc/thesis-2021/'} size={'w-full py-3 md:w-5/6'}/>
             <div className='py-4'>&#10209;&#10209;&#10209;&#10209;&#10209;</div>
             <ProjectTile img={'/imgs/dev/nfl_draft-project1.png'} copy={"An analysis of NFL draft positional history. Data gathered with custom built JS web scraper. Chart built with D3, layout in React."} link={'https://dmalary.github.io/nfl_draft-dashboard/'} size={'w-full py-3 md:w-5/6'}/>
@@ -77,7 +77,7 @@ function App() {
           </div>
           <hr />
           <div className='section-card section-des py-4'>
-            <div id="section-des" className='section-titles text-left py-2'><h2>Design & 3D</h2></div>
+            <div id="section-des" className='section-titles text-left py-2 font-garamond'><h2>Design & 3D</h2></div>
             <ProjectTile img={'/imgs/des/focus_bottleneck.png'} size={'w-full md:w-full'}/>
             <ProjectTile img={'/imgs/des/bottle_and_glass-005.png'} size={'w-full md:w-2/3'}/>
             <ProjectTile img={'/imgs/des/two_bottles-005.png'} size={'w-full md:w-1/3'}/>
@@ -99,8 +99,8 @@ function App() {
             {/* add donuts video, add pen commercial vid */}
           </div>
           <hr />
-          <div className="section-card section-wr py-4">
-            <div id="section-wr" className='section-titles text-left py-2'><h2>Writing</h2></div>
+          <div className="section-card section-wr py-4 font-montserrat">
+            <div id="section-wr" className='section-titles text-left py-2 font-garamond'><h2>Writing</h2></div>
             <ul className="stacked-links text-left">
               <li>
                 <a
