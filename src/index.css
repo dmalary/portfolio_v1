@@ -102,7 +102,7 @@ button:focus-visible {
 
 .stacked-links li a {
   text-decoration: none; /* Remove underline */
-  color: #007acc; /* Your preferred link color */
+  color: #4ca1db; /* Your preferred link color */
   font-weight: 500; /* Slightly bold text for readability */
 }
 
@@ -116,7 +116,7 @@ button:focus-visible {
 
 .anchors a {
   text-decoration: none;
-  color: #007acc
+  color: #4ca1db
 }
 .anchors a:hover {
   text-decoration: underline;
