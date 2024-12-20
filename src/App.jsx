@@ -73,7 +73,17 @@ function App() {
             <div className='py-4'>&#10209;&#10209;&#10209;&#10209;&#10209;</div>
             <ProjectTile img={'/imgs/dev/dm_visual_cv.png'} copy={"An upgraded version of my resume, based on a picture is worth a thousand words."} link={'https://github.com/dmalary/dm_cv-react-d3'} size={'w-full py-3 md:w-5/6'}/>
             <div className='py-4'>&#10209;&#10209;&#10209;&#10209;&#10209;</div>
-            <ProjectTile img={'/imgs/dev/state_teams.png'} copy={"Hexagon US map, showing the number of major 4 sports league teams by State. The major 4 are NFL, NHL, MLB, NBA."} link={'https://github.com/dmalary/react_d3-map_challenge_4?'} size={'w-full py-3 md:w-5/6'}/>
+            <ProjectTile img={'/imgs/dev/state_teams.png'} copy={"Hexagon US map, showing the number of major 4 sports league teams by State. The major 4 are NFL, NHL, MLB, NBA."} link={'https://github.com/dmalary/react_d3-map_challenge_4'} size={'w-full py-3 md:w-5/6'}/>
+            <div className='py-4'>&#10209;&#10209;&#10209;&#10209;&#10209;</div>
+            <ProjectTile img={'/imgs/dev/30day_chlng-4.png'} copy={"Waffle Chart of home runs and steals in 2024 (top 10 players in both categories)"} link={'https://observablehq.com/d/576439936cf10801'} size={'w-full py-3 md:w-5/6'}/>
+            <div className='py-4'>&#10209;&#10209;&#10209;&#10209;&#10209;</div>
+            <ProjectTile img={'/imgs/dev/30day_chlng-2.png'} copy={"A comparison of top WNBA Rookies, using radar small multiples."} link={'https://observablehq.com/d/b1aae0954e665717'} size={'w-full py-3 md:w-5/6'}/>
+            <div className='py-4'>&#10209;&#10209;&#10209;&#10209;&#10209;</div>
+            <ProjectTile img={'/imgs/dev/30day_chlng-21.png'} copy={"Wind farm openings in the US, by state, from 1981 to 2014."} link={'https://observablehq.com/d/e5f689f2cb95ad0f'} size={'w-full py-3 md:w-5/6'}/>
+            <div className='py-4'>&#10209;&#10209;&#10209;&#10209;&#10209;</div>
+            <ProjectTile img={'/imgs/dev/30day_chlng-15.png'} copy={"Visualizing the relationships between Titanic passenger boarding locations and class, as well as class and survival."} link={'https://observablehq.com/d/06b38324e87f4747'} size={'w-full py-3 md:w-5/6'}/>
+            <div className='py-4'>&#10209;&#10209;&#10209;&#10209;&#10209;</div>
+            <ProjectTile img={'/imgs/dev/30day_chlng-16.png'} copy={"Sunburst chart of NFL stadium weather based on average temperatures, and the playing surface types for each."} link={'https://observablehq.com/d/572a27cbded15a25'} size={'w-full py-3 md:w-5/6'}/>
           </div>
           <hr />
           <div className='section-card section-des py-4'>
