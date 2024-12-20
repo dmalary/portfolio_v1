@@ -113,3 +113,11 @@ button:focus-visible {
 .section-titles {
   font-size: 2rem
 }
+
+.anchors a {
+  text-decoration: none;
+  color: #007acc
+}
+.anchors a:hover {
+  text-decoration: underline;
+}
