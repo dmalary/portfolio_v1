@@ -60,23 +60,35 @@ function App() {
           <div className='section-card section-dev py-4'>
             <div className='section-titles text-left py-2'><h2>Development</h2></div>
             <ProjectTile img={'/imgs/dev/thesis.png'} copy={"(2020) Thesis, MS in Data Visualization. Parson's School of Design, The New School"} link={'https://parsons.nyc/thesis-2021/'} size={'w-full py-3 md:w-5/6'}/>
+            <div className='py-4'>&#10209;&#10209;&#10209;&#10209;&#10209;</div>
             <ProjectTile img={'/imgs/dev/nfl_draft-project1.png'} copy={"An analysis of NFL draft positional history. Data gathered with custom built JS web scraper. Chart built with D3, layout in React."} link={'https://dmalary.github.io/nfl_draft-dashboard/'} size={'w-full py-3 md:w-5/6'}/>
+            <div className='py-4'>&#10209;&#10209;&#10209;&#10209;&#10209;</div>
             <ProjectTile img={'/imgs/dev/city_champions.png'} copy={"Small multiples donut chart, to evaluate what North American City has won the most champpionships, within the four major sports (baseball, football, basketball, hockey)."} link={'https://github.com/dmalary/react_d3-map_challenge_4'} size={'w-full py-3 md:w-5/6'}/>
+            <div className='py-4'>&#10209;&#10209;&#10209;&#10209;&#10209;</div>
             <ProjectTile img={'/imgs/dev/dm_visual_cv.png'} copy={"An upgraded version of my resume, based on a picture is worth a thousand words."} link={'https://github.com/dmalary/dm_cv-react-d3'} size={'w-full py-3 md:w-5/6'}/>
+            <div className='py-4'>&#10209;&#10209;&#10209;&#10209;&#10209;</div>
             <ProjectTile img={'/imgs/dev/state_teams.png'} copy={"Hexagon US map, showing the number of major 4 sports league teams by State. The major 4 are NFL, NHL, MLB, NBA."} link={'https://github.com/dmalary/react_d3-map_challenge_4?'} size={'w-full py-3 md:w-5/6'}/>
           </div>
           <hr />
           <div className='section-card section-des py-4'>
-            <div className='section-titles text-left py-2'><h2>Design</h2></div>
+            <div className='section-titles text-left py-2'><h2>Design & 3D</h2></div>
             <ProjectTile img={'/imgs/des/focus_bottleneck.png'} size={'w-full md:w-full'}/>
             <ProjectTile img={'/imgs/des/bottle_and_glass-005.png'} size={'w-full md:w-2/3'}/>
             <ProjectTile img={'/imgs/des/two_bottles-005.png'} size={'w-full md:w-1/3'}/>
-            <ProjectTile img={'/imgs/des/two_bottles-004.png'} size={'w-full md:w-1/2'}/>
-            <ProjectTile img={'/imgs/des/bottle_and_glass-002.png'} size={'w-full md:w-1/2'}/>
-            <ProjectTile img={'/imgs/des/glass_3point_light.png'} size={'w-full md:w-3/4'}/>
+            <ProjectTile img={'/imgs/des/condiment_boards.jpg'} size={'w-full md:w-full'}/>
+            <ProjectTile img={'/imgs/des/bento_three.jpg'} size={'w-full md:w-full'}/>
+            <ProjectTile img={'/imgs/des/bento_open.jpg'} size={'w-full md:w-1/2'}/>
+            <ProjectTile img={'/imgs/des/bento_closed.jpg'} size={'w-full md:w-1/2'}/>
             <ProjectTile img={'/imgs/des/all_caps0001.png'} size={'w-full md:w-full'}/>
             <ProjectTile img={'/imgs/des/blue-0001.png'} size={'w-full md:w-3/5'}/>
-            <ProjectTile img={'/imgs/des/kore_0001.png'} size={'w-full md:w-2/5'}/>
+            <ProjectTile img={'/imgs/des/design_lamp.jpg'} size={'w-full md:w-2/5'}/>
+            <ProjectTile img={'/imgs/des/design_lamp_2.jpg'} size={'w-full md:w-full'}/>
+            <ProjectTile img={'/imgs/des/ceramic_bottle.jpg'} size={'w-full md:w-2/3'}/>
+            <ProjectTile img={'/imgs/des/bottle_and_glass-002.png'} size={'w-full md:w-1/3'}/>
+            <ProjectTile img={'/imgs/des/glass_3point_light.png'} size={'w-full md:w-full'}/>
+            <ProjectTile img={'/imgs/des/shampoo_light.jpg'} size={'w-full md:w-1/3'}/>
+            <ProjectTile img={'/imgs/des/shampoo_dark.jpg'} size={'w-full md:w-2/3'}/>
+            <ProjectTile img={'/imgs/des/kore_0001.png'} size={'w-full md:w-full'}/>
             <ProjectTile img={'/imgs/des/studio_project-brochure.png'} size={'w-full md:w-full'}/>
             {/* add donuts video, add pen commercial vid */}
           </div>
