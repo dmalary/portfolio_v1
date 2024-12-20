@@ -33,7 +33,7 @@ function App() {
           </div>
           <div className='pt-2 pb-3 px-0'>{copyLang}</div>
           <hr />
-          <div className='pt-2 pb-3 px-0'>
+          <div className='pt-5 pb-3 px-0'>
             <div className='w-10 h-10 px-1 inline-block'><a href="https://github.com/dmalary" target="_blank" rel="noopener noreferrer">
               <img src={socialPrefix + '/imgs/github-v2.webp'} alt="GitHub" />
             </a></div>
@@ -55,10 +55,16 @@ function App() {
             {/* <hr /> */}
             {/* {add email/cv  icons} */}
           </div>
+          <hr />
+          <div className='pt-5 pb-3 px-0'>
+            <div className='anchors block py-1'><a href="#section-dev">Development</a></div>
+            <div className='anchors block py-1'><a href="#section-des">Design & 3D</a></div>
+            <div className='anchors block py-1'><a href="#section-wr">Writing</a></div>
+          </div>
         </div>
         <div className='portfolio-col col-span-1 md:col-span-2 px-1 py-4'>
           <div className='section-card section-dev py-4'>
-            <div className='section-titles text-left py-2'><h2>Development</h2></div>
+            <div id="section-dev" className='section-titles text-left py-2'><h2>Development</h2></div>
             <ProjectTile img={'/imgs/dev/thesis.png'} copy={"(2020) Thesis, MS in Data Visualization. Parson's School of Design, The New School"} link={'https://parsons.nyc/thesis-2021/'} size={'w-full py-3 md:w-5/6'}/>
             <div className='py-4'>&#10209;&#10209;&#10209;&#10209;&#10209;</div>
             <ProjectTile img={'/imgs/dev/nfl_draft-project1.png'} copy={"An analysis of NFL draft positional history. Data gathered with custom built JS web scraper. Chart built with D3, layout in React."} link={'https://dmalary.github.io/nfl_draft-dashboard/'} size={'w-full py-3 md:w-5/6'}/>
@@ -71,7 +77,7 @@ function App() {
           </div>
           <hr />
           <div className='section-card section-des py-4'>
-            <div className='section-titles text-left py-2'><h2>Design & 3D</h2></div>
+            <div id="section-des" className='section-titles text-left py-2'><h2>Design & 3D</h2></div>
             <ProjectTile img={'/imgs/des/focus_bottleneck.png'} size={'w-full md:w-full'}/>
             <ProjectTile img={'/imgs/des/bottle_and_glass-005.png'} size={'w-full md:w-2/3'}/>
             <ProjectTile img={'/imgs/des/two_bottles-005.png'} size={'w-full md:w-1/3'}/>
@@ -94,7 +100,7 @@ function App() {
           </div>
           <hr />
           <div className="section-card section-wr py-4">
-            <div className='section-titles text-left py-2'><h2>Writing</h2></div>
+            <div id="section-wr" className='section-titles text-left py-2'><h2>Writing</h2></div>
             <ul className="stacked-links text-left">
               <li>
                 <a
