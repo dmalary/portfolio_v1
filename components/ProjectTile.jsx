@@ -8,10 +8,10 @@ const ProjectTile = ({img, copy, link, size}) => {
         {
           link ? 
             <a href={link} target="_blank" rel="noopener noreferrer">
-              <img style={{'border-radius': '0.25rem'}} src={`${import.meta.env.BASE_URL}${img}`} alt={copy || ""} />
+              <img className={'img-shadow'} style={{'border-radius': '0.25rem'}} src={`${import.meta.env.BASE_URL}${img}`} alt={copy || ""} />
             </a>
           : 
-            <img style={{'border-radius': '0.25rem'}} src={`${import.meta.env.BASE_URL}${img}`} alt={copy || ""} />
+            <img className={'img-shadow'} style={{'border-radius': '0.25rem'}} src={`${import.meta.env.BASE_URL}${img}`} alt={copy || ""} />
         }
         {
           (copy) && <p className="text-left">{copy}</p>
