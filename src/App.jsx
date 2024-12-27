@@ -35,22 +35,22 @@ function App() {
           <hr />
           <div className='pt-5 pb-3 px-0'>
             <div className='w-10 h-10 px-1 inline-block'><a href="https://github.com/dmalary" target="_blank" rel="noopener noreferrer">
-              <img src={socialPrefix + '/imgs/github-v2.webp'} alt="GitHub" />
+              <img src={socialPrefix + 'imgs/github-v2.webp'} alt="GitHub" />
             </a></div>
             <div className='w-10 h-10 px-1 inline-block'><a href="https://www.linkedin.com/in/david-malary-95565a94" target="_blank" rel="noopener noreferrer">
-              <img src={socialPrefix + '/imgs/sm-icons-linkedin-in-logo.webp'} alt="LinkedIn" />
+              <img src={socialPrefix + 'imgs/sm-icons-linkedin-in-logo.webp'} alt="LinkedIn" />
             </a></div>
             <div className='w-10 h-10 px-1 inline-block'><a href="https://observablehq.com/@madhat5" target="_blank" rel="noopener noreferrer">
-              <img src={socialPrefix + '/imgs/obshq.png'} alt="ObservableHQ" />
+              <img src={socialPrefix + 'imgs/obshq.png'} alt="ObservableHQ" />
             </a></div>
             <div className='w-10 h-10 px-1 inline-block'><a href="https://medium.com/@davidmalary" target="_blank" rel="noopener noreferrer">
-              <img src={socialPrefix + '/imgs/medium_logo_icon.webp'} alt="Medium" />
+              <img src={socialPrefix + 'imgs/medium_logo_icon.webp'} alt="Medium" />
             </a></div>
             {/* <div className='w-10 h-10 px-1 inline-block'><a href="https://www.instagram.com/from_studio_jane/" target="_blank" rel="noopener noreferrer">
-              <img src={socialPrefix + '/imgs/sm-icons-instagram-glyph-logo.webp'} alt="Instagram" />
+              <img src={socialPrefix + 'imgs/sm-icons-instagram-glyph-logo.webp'} alt="Instagram" />
             </a></div> */}
             {/* <div className='w-10 h-10 px-1 inline-block'><a href="https://dribbble.com/thedavmal" target="_blank" rel="noopener noreferrer">
-              <img src={socialPrefix + '/imgs/puzzle.png'} alt="Dribble" />
+              <img src={socialPrefix + 'imgs/puzzle.png'} alt="Dribble" />
             </a></div> */}
             {/* <hr /> */}
             {/* {add email/cv  icons} */}
