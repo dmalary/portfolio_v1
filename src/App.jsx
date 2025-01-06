@@ -59,6 +59,7 @@ function App() {
           <div className='pt-5 pb-3 px-0 font-montserrat'>
             <div className='anchors block py-1'><a href="#section-dev">Development</a></div>
             <div className='anchors block py-1'><a href="#section-des">Design & 3D</a></div>
+            <div className='anchors block py-1'><a href="#section-carto">Cartography</a></div>
             <div className='anchors block py-1'><a href="#section-wr">Writing</a></div>
           </div>
         </div>
@@ -107,6 +108,11 @@ function App() {
             <ProjectTile img={'/imgs/des/kore_0001.png'} size={'w-full md:w-full'}/>
             {/* <ProjectTile img={'/imgs/des/studio_project-brochure.png'} size={'w-full md:w-full'}/> */}
             {/* add donuts video, add pen commercial vid */}
+          </div>
+          <hr />
+          <div className='section-card section-carto py-4'>
+            <div id="section-carto" className='section-titles text-left py-2 font-garamond'><h2>Cartography</h2></div>
+            <ProjectTile img={'/imgs/carto/nystate-qgisHillshade-002.png'} copy={'Digital Elevation Model (DEM) of New York State (QGIS + Inkscape).'} size={'w-full md:w-full'}/>
           </div>
           <hr />
           <div className="section-card section-wr py-4 font-montserrat">
